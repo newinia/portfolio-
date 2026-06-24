@@ -101,7 +101,7 @@ export default function Hero() {
       "
     >
       <Image
-        src="/profile.png"
+        src="/profil.jpg"
         alt="profile"
         fill
         className="object-cover"
