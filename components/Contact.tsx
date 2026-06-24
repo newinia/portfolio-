@@ -23,7 +23,7 @@ export default function Contact() {
 
       <div className="grid md:grid-cols-3 gap-6 mt-16">
         <a
-          href="mailto:email@gmail.com"
+          href="mailto:newimuchlisinia@gmail.com"
           className="
           bg-gray-100
           rounded-3xl
@@ -39,7 +39,9 @@ export default function Contact() {
         </a>
 
         <a
-          href="#"
+          href="https://www.linkedin.com/in/newi-muchlisinia/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="
           bg-gray-100
           rounded-3xl
@@ -55,8 +57,9 @@ export default function Contact() {
         </a>
 
         <a
-          href="#"
-          className="
+          href="https://github.com/newinia/"
+          target="_blank"
+          rel="noopener noreferrer"
           bg-gray-100
           rounded-3xl
           p-10
