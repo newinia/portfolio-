@@ -44,51 +44,6 @@ export default function Hero() {
           transforming ideas into meaningful digital solutions.
         </p>
 
-        {/* Social */}
-        <div className="flex gap-4 mt-8">
-          <a
-            href="#"
-            className="
-            w-12 h-12
-            rounded-full
-            bg-gray-100
-            flex items-center justify-center
-            hover:bg-black hover:text-white
-            transition-all duration-300
-            "
-          >
-            <FiLinkedin size={20} />
-          </a>
-
-          <a
-            href="#"
-            className="
-            w-12 h-12
-            rounded-full
-            bg-gray-100
-            flex items-center justify-center
-            hover:bg-black hover:text-white
-            transition-all duration-300
-            "
-          >
-            <FiGithub size={20} />
-          </a>
-
-          <a
-            href="#"
-            className="
-            w-12 h-12
-            rounded-full
-            bg-gray-100
-            flex items-center justify-center
-            hover:bg-black hover:text-white
-            transition-all duration-300
-            "
-          >
-            <FiMail size={20} />
-          </a>
-        </div>
-
         {/* Button */}
         <div className="flex flex-wrap gap-4 mt-10">
           <a
@@ -127,33 +82,91 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
       {/* RIGHT */}
-      <div className="flex justify-center">
-        <div
-          className="
-          relative
-          w-[320px]
-          h-[320px]
-          lg:w-[600px]
-          lg:h-[600px]
-          rounded-full
-          overflow-hidden
-          bg-violet-100
-          border-[10px]
-          border-white
-          shadow-xl
-          "
-        >
-          <Image
-            src="/profile.png"
-            alt="profile"
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
-      </div>
+  <div className="flex flex-col items-center">
+  
+    {/* FOTO */}
+    <div
+      className="
+      relative
+      w-[280px]
+      h-[280px]
+      lg:w-[400px]
+      lg:h-[400px]
+      rounded-full
+      overflow-hidden
+      bg-violet-100
+      border-8
+      border-white
+      shadow-xl
+      "
+    >
+      <Image
+        src="/profile.png"
+        alt="profile"
+        fill
+        className="object-cover"
+        priority
+      />
+    </div>
+  
+    {/* SOCIAL */}
+    <div className="flex gap-4 mt-8">
+      <a
+        href="https://www.linkedin.com/in/newi-muchlisinia/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="
+        w-12 h-12
+        rounded-full
+        bg-gray-100
+        flex items-center justify-center
+        hover:bg-black
+        hover:text-white
+        hover:scale-110
+        transition-all duration-300
+        "
+      >
+        <FiLinkedin size={20} />
+      </a>
+  
+      <a
+        href="https://github.com/newinia/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="
+        w-12 h-12
+        rounded-full
+        bg-gray-100
+        flex items-center justify-center
+        hover:bg-black
+        hover:text-white
+        hover:scale-110
+        transition-all duration-300
+        "
+      >
+        <FiGithub size={20} />
+      </a>
+  
+      <a
+        href="mailto:newimuchlisinia@gmail.com"
+        className="
+        w-12 h-12
+        rounded-full
+        bg-gray-100
+        flex items-center justify-center
+        hover:bg-black
+        hover:text-white
+        hover:scale-110
+        transition-all duration-300
+        "
+      >
+        <FiMail size={20} />
+      </a>
+  
+    </div>
+
+</div>
     </section>
   );
 }
