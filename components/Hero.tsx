@@ -25,8 +25,6 @@ export default function Hero() {
     >
       {/* LEFT */}
       <div>
-        <div className="w-12 h-1 bg-violet-400 rounded-full mb-6" />
-        
         <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
           Hello,
           <br />
@@ -35,6 +33,7 @@ export default function Hero() {
         <p className="uppercase tracking-[6px] text-gray-400 text-xs mb-6">
           Software Engineering Student
         </p>
+        <div className="w-12 h-1 bg-black-400 rounded-full mb-6" />
         <p className="mt-8 text-gray-600 text-lg max-w-xl leading-relaxed">
           I am currently studying Software Engineering Technology at
           IPB University. My interests lie in Data Analytics,
