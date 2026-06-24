@@ -38,10 +38,6 @@ export default function Expertise() {
       id="expertise"
       className="max-w-7xl mx-auto py-32 px-6"
     >
-      <p className="text-center text-sm text-gray-400 uppercase tracking-widest">
-        Core Pillars
-      </p>
-
       <h2 className="text-center text-4xl font-bold mt-2 mb-16">
         My Expertise
       </h2>
