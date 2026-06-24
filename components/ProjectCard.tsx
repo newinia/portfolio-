@@ -1,4 +1,4 @@
-import { Project } from "@/data/project";
+import { Project } from "@/types/project";
 
 interface Props {
   project: Project;
