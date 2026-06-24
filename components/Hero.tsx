@@ -33,7 +33,7 @@ export default function Hero() {
         <p className="uppercase tracking-[6px] text-gray-400 text-xs mb-6">
           Software Engineering Student
         </p>
-        <div className="w-12 h-1 bg-black-400 rounded-full mb-6" />
+        <div className="w-12 h-1 bg-black-400 rounded-full" />
         <p className="mt-8 text-gray-600 text-lg max-w-xl leading-relaxed">
           I am currently studying Software Engineering Technology at
           IPB University. My interests lie in Data Analytics,
