@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { projects } from "@/data/projects";
+import { Project } from "@/types/project";
 
 import ProjectCard from "./ProjectCard";
 import ProjectModal from "./ProjectModal";
@@ -11,9 +12,8 @@ export default function Projects() {
   const [active, setActive] =
     useState("All");
 
-  const [selectedProject,
-    setSelectedProject] =
-    useState(null);
+  const [selectedProject, setSelectedProject] =
+  useState<Project | null>(null);
 
   const filtered =
     active === "All"
@@ -33,24 +33,36 @@ export default function Projects() {
         Recent Projects
       </h2>
 
-      <div className="flex gap-4 mb-10">
+      <div className="flex gap-4 mb-10 flex-wrap">
 
-        {[
-          "All",
-          "Data",
-          "Development",
-        ].map((category) => (
-          <button
-            key={category}
-            onClick={() =>
-              setActive(category)
-            }
-          >
-            {category}
-          </button>
-        ))}
+  {[
+    "All",
+    "Data",
+    "Development",
+  ].map((category) => (
 
-      </div>
+    <button
+      key={category}
+      onClick={() =>
+        setActive(category)
+      }
+      className={`
+        px-6 py-3 rounded-full
+        transition-all duration-300
+
+        ${
+          active === category
+            ? "bg-black text-white"
+            : "bg-gray-100 hover:bg-gray-200"
+        }
+      `}
+    >
+      {category}
+    </button>
+
+  ))}
+
+</div>
 
       <div className="grid md:grid-cols-3 gap-6">
 
