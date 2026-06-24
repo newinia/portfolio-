@@ -25,10 +25,12 @@ export default function Hero() {
     >
       {/* LEFT */}
       <div>
+        <p className="text-lg text-gray-500 mb-2">
+          Hello, I'm
+        </p>
+        
         <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-          Hello,
-          <br />
-          I'm Newi Muchlisinia
+          Newi Muchlisinia
         </h1>
         <p className="uppercase tracking-[6px] text-gray-400 text-xs mb-6">
           Software Engineering Student
