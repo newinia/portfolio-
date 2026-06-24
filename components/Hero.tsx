@@ -76,7 +76,6 @@ export default function Hero() {
             transition-all duration-300
             "
           >
-            <FiDownload />
             View CV
           </a>
         </div>
