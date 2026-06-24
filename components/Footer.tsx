@@ -14,7 +14,7 @@ export default function Footer() {
       >
         <div>
           <h3 className="font-bold text-xl">
-            Portfolio.
+            Portfolio
           </h3>
 
           <p className="text-sm text-gray-500 mt-2">
@@ -23,9 +23,31 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-6 text-sm">
-          <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
-          <a href="#">Twitter</a>
+          <a
+            href="https://www.linkedin.com/in/newi-muchlisinia/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-500 transition-colors"
+          >
+            LinkedIn
+          </a>
+        
+          <a
+            href="https://github.com/newinia/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-500 transition-colors"
+          >
+            GitHub
+          </a>
+        
+          <a
+            href="mailto:newimuchlisinia@gmail.com"
+            className="hover:text-gray-500 transition-colors"
+          >
+            Email
+          </a>
+        
         </div>
       </div>
     </footer>
