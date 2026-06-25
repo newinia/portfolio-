@@ -32,7 +32,7 @@ export default function ProjectCard({
           {project.title}
         </h3>
 
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-500 mt-2 line-clamp-2">
           {project.description}
         </p>
 

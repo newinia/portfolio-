@@ -16,12 +16,11 @@ export default function Projects() {
   useState<Project | null>(null);
 
   const filtered =
-    active === "All"
-      ? projects
-      : projects.filter(
-          (project) =>
-            project.category === active
-        );
+  active === "All"
+    ? projects
+    : projects.filter((project) =>
+        project.categories.includes(active)
+      );
 
   return (
     <section
