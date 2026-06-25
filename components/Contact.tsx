@@ -60,13 +60,14 @@ export default function Contact() {
           href="https://github.com/newinia/"
           target="_blank"
           rel="noopener noreferrer"
+          className="
           bg-gray-100
           rounded-3xl
           p-10
           flex
           flex-col
           items-center
-          gap-4
+          gap-4"
         >
           <FiGithub size={24} />
           GitHub
