@@ -32,10 +32,6 @@ const skills = [
     icon: <SiMysql size={40} />,
   },
   {
-    name: "Next.js",
-    icon: <SiNextdotjs size={40} />,
-  },
-  {
     name: "Tailwind CSS",
     icon: <SiTailwindcss size={40} />,
   },
@@ -46,10 +42,6 @@ const skills = [
   {
     name: "Figma",
     icon: <SiFigma size={40} />,
-  },
-  {
-    name: "Power BI",
-    icon: <span className="text-4xl">📊</span>,
   },
   {
     name: "Android Studio",
@@ -63,23 +55,16 @@ const skills = [
     name: "Blender",
     icon: <SiBlender size={40} />,
   },
-  {
-    name: "Git",
-    icon: <SiGit size={40} />,
-  },
 ];
 
 export default function TechStack() {
   return (
     <section
       id="skills"
-      className="max-w-7xl mx-auto py-32 px-6"
+      className="max-w-7xl mx-auto py-16 px-6"
     >
       {/* Section Header */}
       <div className="text-center mb-16">
-        <p className="uppercase tracking-[5px] text-gray-400 text-xs">
-          Technologies
-        </p>
 
         <h2 className="text-4xl md:text-5xl font-bold mt-3">
           Tools & Stack

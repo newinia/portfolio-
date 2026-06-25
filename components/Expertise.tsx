@@ -7,9 +7,9 @@ import {
 
 const expertise = [
   {
-    title: "Data Analytics",
+    title: "Data Engineering & Analytics",
     description:
-      "Extracting insights from data using statistical methods and predictive modeling.",
+      "Preparing, processing, analyzing, and visualizing data to generate actionable insights.",
     icon: <FiBarChart2 size={24} />,
   },
   {
@@ -36,7 +36,7 @@ export default function Expertise() {
   return (
     <section
       id="expertise"
-      className="max-w-7xl mx-auto py-32 px-6"
+      className="max-w-7xl mx-auto py-16 px-6"
     >
       <h2 className="text-center text-4xl font-bold mt-2 mb-16">
         My Expertise

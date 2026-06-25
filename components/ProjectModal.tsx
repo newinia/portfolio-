@@ -67,6 +67,7 @@ export default function ProjectModal({
             w-full
             h-[450px]
             object-cover
+            object-top
             "
           />
         </div>
@@ -210,7 +211,7 @@ export default function ProjectModal({
                     transition
                     "
                   >
-                    Figma Prototype
+                    Figma Design
                   </a>
                 )}
 
@@ -240,6 +241,8 @@ export default function ProjectModal({
                 h-80
                 object-cover
                 w-full
+                object-top
+                h-full
                 "
               />
             ))}

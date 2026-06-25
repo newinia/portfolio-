@@ -32,11 +32,11 @@ export default function Hero() {
         <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
           Newi Muchlisinia
         </h1>
-        <p className="uppercase tracking-[6px] text-gray-400 text-xs mb-6">
+        <p className="uppercase tracking-[6px] text-gray-400 text-xs">
           Software Engineering Student
         </p>
         <div className="w-12 h-1 bg-black-400 rounded-full" />
-        <p className="mt-8 text-gray-600 text-lg max-w-xl leading-relaxed">
+        <p className="mt-4 text-gray-600 text-lg max-w-xl leading-relaxed">
           I am currently studying Software Engineering Technology at
           IPB University. My interests lie in Data Analytics,
           Machine Learning, and System Analysis, where I enjoy

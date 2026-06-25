@@ -13,7 +13,7 @@ export const projects: Project[] = [
     "UI/UX"
   ],
 
-  image: "/projects/emotion-detection-cover.jpg",
+  image: "/project/emoscan-1.png",
 
   description:
     "A real-time emotion detection system developed in 2026 using Computer Vision and Machine Learning techniques. The system analyzes facial expressions from video streams and visualizes emotion predictions through an interactive dashboard.",
@@ -55,7 +55,13 @@ export const projects: Project[] = [
 
   ],
 
-  gallery: []
+  gallery: [
+    "/project/emoscan-1.png",
+    "/project/emoscan-2.png",
+    "/project/emoscan-3.png",
+    "/project/emoscan-4.png",
+    "/project/emoscan-5.png"
+  ]
 },
 {
   id: 2,
@@ -67,7 +73,7 @@ export const projects: Project[] = [
     "UI/UX"
   ],
 
-  image: "/projects/journalism-cover.jpg",
+  image: "/project/smandas-1.png",
 
   description:
   "Designed in 2026, this journalism extracurricular website supports content management and administrative activities through structured system analysis and user-centered design.",
@@ -103,7 +109,12 @@ export const projects: Project[] = [
     }
   ],
 
-  gallery: []
+  gallery: [
+    "/project/smandas-1.png",
+    "/project/smandas-2.png",
+    "/project/smandas-3.png",
+    "/project/smandas-4.png",
+  ]
 },
 {
   id: 3,
@@ -116,10 +127,10 @@ export const projects: Project[] = [
   "System Analyst",
 ],
 
-  image: "/projects/kudaku-cover.jpg",
+  image: "/project/project-kudaku-1.png",
 
   description:
-    "KUDAKU is a horse farm management platform developed in 2025 to simplify and optimize daily farm operations, including data management and operational processes.",
+    "KUDAKU is a horse farm management platform developed in 2024 to simplify and optimize daily farm operations, including data management and operational processes.",
 
   techStack: [
     "Figma",
@@ -157,7 +168,7 @@ export const projects: Project[] = [
     }
   ],
 
-  gallery: []
+  gallery: ["/project/project-kudaku-1.png","/project/project-kudaku-2.png"]
 },
 {
   id: 4,
@@ -169,7 +180,7 @@ export const projects: Project[] = [
     "Development"
   ],
 
-  image: "/projects/simasirul-cover.jpg",
+  image: "/project/SIMASIRUL-1.png",
 
   description:
     "Developed in 2025, SIMASIRUL is a web-based POS system designed to help small businesses manage sales transactions and daily operations through a streamlined digital platform.",
@@ -199,7 +210,15 @@ export const projects: Project[] = [
     }
   ],
 
-  gallery: []
+  gallery: [
+    "/project/SIMASIRUL-1.png",
+    "/project/SIMASIRUL-2.jpg",
+    "/project/SIMASIRUL-3.jpg",
+    "/project/SIMASIRUL-4.jpg",
+    "/project/SIMASIRUL-5.jpg",
+    "/project/SIMASIRUL-6.jpg",
+    "/project/SIMASIRUL-7.jpg",
+]
 },
 {
   id: 5,
@@ -210,7 +229,7 @@ export const projects: Project[] = [
     "Development"
   ],
 
-  image: "/projects/lashie-lust-cover.jpg",
+  image: "/project/project-lashielust-1.png",
 
   description:
     "Developed in 2025, Lashie Lust is a web platform that includes an administrative dashboard for managing application data and supporting internal business operations.",
@@ -234,7 +253,7 @@ export const projects: Project[] = [
     }
   ],
 
-  gallery: []
+  gallery: [ "/project/project-lashielust-1.png",  "/project/project-lashielust-2.png",]
 }
 
 ];

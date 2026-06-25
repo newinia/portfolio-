@@ -25,10 +25,10 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="max-w-7xl mx-auto py-32 px-6"
+      className="max-w-7xl mx-auto py-16 px-6"
     >
 
-      <h2 className="text-4xl font-bold mb-10">
+      <h2 className="text-4xl font-bold mb-10 text-center">
         Recent Projects
       </h2>
 
