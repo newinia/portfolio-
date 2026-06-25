@@ -67,7 +67,6 @@ export default function Contact() {
           flex-col
           items-center
           gap-4
-          "
         >
           <FiGithub size={24} />
           GitHub
