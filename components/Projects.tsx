@@ -37,8 +37,11 @@ export default function Projects() {
 
   {[
     "All",
+    "UI/UX",
     "Data",
     "Development",
+    "System Analyst",
+    "Machine Learning",
   ].map((category) => (
 
     <button
